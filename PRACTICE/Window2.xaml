@@ -8,6 +8,13 @@
         Title="Window2" Height="450" Width="800">
     <Grid>
         <ContentControl Content="ContentControl" HorizontalAlignment="Left" Margin="888,126,0,0" VerticalAlignment="Top"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="260,0,0,0"/>
+        <Button Content="Продукция" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Height="80" Width="245"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="245" Height="80"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top" Height="80" Width="245"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,259,0,0" VerticalAlignment="Top" Width="245" Height="80"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,344,0,0" VerticalAlignment="Top" Width="245" Height="80"/>
+        <DataGrid HorizontalAlignment="Left" Height="18" Margin="275,601,0,0" VerticalAlignment="Top" Width="14" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
     </Grid>
 </Window>

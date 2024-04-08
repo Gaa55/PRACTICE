@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,5 +24,21 @@ namespace PRACTICE
         {
             InitializeComponent();
         }
+        private void Confirm_click(object sender, RoutedEventArgs e)
+        { string filePath = "regisetredUsers.txt";
+            if(!File.Exists(filePath))
+            {
+                File.Create(filePath).Close();
+            }
+            using (StreamWriter writer = new StreamWriter(filePath, append: true)) 
+            { writer.WriteLine($"{Text_Login.Text},{Text_Password.Text}"); }
+          }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+      
     }
 }

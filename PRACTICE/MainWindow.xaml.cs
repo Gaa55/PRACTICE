@@ -25,10 +25,12 @@ namespace PRACTICE
             InitializeComponent();
         }
         private void New_Click(object sender, RoutedEventArgs e)
-        { Window1 window1 =new Window1();
-            window1.Show();
+        {
+            foreach(var user in registerdUsers)
         }
-        private void New_Click1(object sender, RoutedEventArgs e)
-        { }
+        private void Registration_click(object sender, RoutedEventArgs e)
+        { add_client Add_Client=new add_client();
+            Add_Client.Show();
+        }
     }
 }

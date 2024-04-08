@@ -18,3 +18,7 @@ D:\Is33\PRACTICE\PRACTICE\obj\Debug\PRACTICE.csproj.GenerateResource.cache
 D:\Is33\PRACTICE\PRACTICE\obj\Debug\PRACTICE.csproj.CoreCompileInputs.cache
 D:\Is33\PRACTICE\PRACTICE\obj\Debug\PRACTICE.exe
 D:\Is33\PRACTICE\PRACTICE\obj\Debug\PRACTICE.pdb
+D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_client.g.cs
+D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_product.g.cs
+D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_client.baml
+D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_product.baml

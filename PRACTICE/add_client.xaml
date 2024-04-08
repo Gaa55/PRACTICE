@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="add_client" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="69*"/>
+            <ColumnDefinition Width="331*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Введите логин" HorizontalAlignment="Left" Margin="91,92,0,0" VerticalAlignment="Top" Height="47" Width="300" Grid.Column="1"/>
+        <Label Content="Введите пароль" HorizontalAlignment="Left" Margin="91,238,0,0" VerticalAlignment="Top" Height="57" Width="300" Grid.Column="1"/>
+        <TextBox x:Name="Text_Login" HorizontalAlignment="Left" Margin="91,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Text_Password" HorizontalAlignment="Left" Margin="91,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button Grid.Column="1" Content="Подтвердить" HorizontalAlignment="Left" Margin="314,361,0,0" VerticalAlignment="Top" Width="252" Height="63" Click="Confirm_click"/>
+
     </Grid>
 </Window>
