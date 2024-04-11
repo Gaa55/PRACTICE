@@ -27,7 +27,6 @@ namespace PRACTICE
         }
         private void New_Click(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
             string login=LoginBox.Text;
             string password=PasswordBox.Text;
 
@@ -40,9 +39,6 @@ namespace PRACTICE
             {
                 MessageBox.Show("Поошел нахууй!!!");
             }
-=======
-            
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
         }
         private void Registration_click(object sender, RoutedEventArgs e)
         { add_client Add_Client=new add_client();

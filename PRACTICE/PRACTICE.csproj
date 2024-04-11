@@ -85,7 +85,6 @@
     <Compile Include="add_product.xaml.cs">
       <DependentUpon>add_product.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Categories.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -97,27 +96,21 @@
     <Compile Include="Manufacturers.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-=======
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.Context.tt</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Model1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-=======
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
     <Compile Include="Model1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Orders.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -127,8 +120,6 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-=======
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -199,22 +190,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
-    <Content Include="Model1.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
@@ -229,7 +204,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -242,7 +216,5 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
   </ItemGroup>
-=======
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

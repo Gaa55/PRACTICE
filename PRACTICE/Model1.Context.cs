@@ -13,17 +13,10 @@ namespace PRACTICE
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-<<<<<<< HEAD
     public partial class ELECTRONICS_SHOPEntities3 : DbContext
     {
         public ELECTRONICS_SHOPEntities3()
             : base("name=ELECTRONICS_SHOPEntities3")
-=======
-    public partial class ELECTRONICS_SHOPEntities : DbContext
-    {
-        public ELECTRONICS_SHOPEntities()
-            : base("name=ELECTRONICS_SHOPEntities")
->>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
         {
         }
     

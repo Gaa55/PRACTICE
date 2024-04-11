@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="come_in_button" Content="Войти" HorizontalAlignment="Left" Margin="566,319,0,0" VerticalAlignment="Top" Height="74" Width="180" Click="New_Click"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="566,319,0,0" VerticalAlignment="Top" Height="74" Width="180" Click="New_Click"/>
         <TextBox x:Name="LoginBox" HorizontalAlignment="Left" Margin="566,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="30"/>
         <TextBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="566,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="30"/>
         <Label Content="Логин" HorizontalAlignment="Left" Margin="566,51,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
