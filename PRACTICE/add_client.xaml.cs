@@ -10,6 +10,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Data.SqlClient;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
@@ -20,25 +21,31 @@ namespace PRACTICE
     /// </summary>
     public partial class add_client : Window
     {
+
         public add_client()
         {
             InitializeComponent();
-        }
-        private void Confirm_click(object sender, RoutedEventArgs e)
-        { string filePath = "regisetredUsers.txt";
-            if(!File.Exists(filePath))
-            {
-                File.Create(filePath).Close();
-            }
-            using (StreamWriter writer = new StreamWriter(filePath, append: true)) 
-            { writer.WriteLine($"{Text_Login.Text},{Text_Password.Text}"); }
-          }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        }
+       
+
+            private void Confirm_click(object sender, RoutedEventArgs e)
+        {
+           CustomerManager customerManager = new CustomerManager();
+            customerManager.RegisterCustomer(Text_Login.Text,Text_Password.Password);
+
+        }
+
+        public void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-      
+        public void TextPassword(object sender, TextChangedEventArgs e)
+        {
+           
+        }
+
+
     }
 }

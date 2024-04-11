@@ -20,17 +20,30 @@ namespace PRACTICE
     /// </summary>
     public partial class MainWindow : Window
     {
+        private CustomerManager customerManager=new CustomerManager();
         public MainWindow()
         {
             InitializeComponent();
         }
         private void New_Click(object sender, RoutedEventArgs e)
         {
-            foreach(var user in registerdUsers)
+            string login=LoginBox.Text;
+            string password=PasswordBox.Text;
+
+            if (customerManager.CheckCredentials(login,password))
+            { Window2 window2 = new Window2();
+                window2.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Поошел нахууй!!!");
+            }
         }
         private void Registration_click(object sender, RoutedEventArgs e)
         { add_client Add_Client=new add_client();
             Add_Client.Show();
+            this.Close();
         }
     }
 }

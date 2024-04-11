@@ -22,3 +22,10 @@ D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_client.g.cs
 D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_product.g.cs
 D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_client.baml
 D:\Is33\PRACTICE\PRACTICE\obj\Debug\add_product.baml
+D:\Is33\PRACTICE\PRACTICE\bin\Debug\EntityFramework.dll
+D:\Is33\PRACTICE\PRACTICE\bin\Debug\EntityFramework.SqlServer.dll
+D:\Is33\PRACTICE\PRACTICE\bin\Debug\EntityFramework.xml
+D:\Is33\PRACTICE\PRACTICE\bin\Debug\EntityFramework.SqlServer.xml
+D:\Is33\PRACTICE\PRACTICE\bin\Debug\ru\EntityFramework.resources.dll
+D:\Is33\PRACTICE\PRACTICE\obj\Debug\PRACTICE_Content.g.cs
+D:\Is33\PRACTICE\PRACTICE\obj\Debug\PRACTICE.csproj.CopyComplete
