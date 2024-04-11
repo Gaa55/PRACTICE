@@ -11,8 +11,13 @@ false
 DEBUG;TRACE
 D:\Is33\PRACTICE\PRACTICE\App.xaml
 51689634456
+<<<<<<< HEAD
 2-1957146511
 21996593409
+=======
+4-756448895
+19-1239272818
+>>>>>>> 203e2318c27a1185b86f94555dd990049903ffa3
 18470865939
 add_client.xaml;add_product.xaml;MainWindow.xaml;Window1.xaml;Window2.xaml;
 
